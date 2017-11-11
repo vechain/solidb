@@ -1,6 +1,6 @@
 # SoliDB
 
-A Distributed Content-Addressable Storage
+A Distributed Content-Addressable Database
 
 ## Features
 
