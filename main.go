@@ -20,7 +20,7 @@ func newApp() *cli.App {
 	app.Version = fmt.Sprintf("%s-%s-commit%s", release, version, gitCommit)
 	app.Name = "solidb"
 	app.Usage = "A Distributed Content Addressable Database"
-	app.Copyright = "2017 VeChain Foundation"
+	app.Copyright = "2017 VeChain Foundation <https://vechain.com/>"
 	app.Commands = cmd.Commands()
 	return app
 }
