@@ -1,0 +1,19 @@
+language: go
+go:
+  - 1.8
+  - 1.9
+  - tip
+
+branches:
+  only:
+    - master
+
+install:
+  - go get github.com/Masterminds/glide
+
+before_script:
+
+script:
+  - glide install
+  - make test
+
